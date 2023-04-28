@@ -6,9 +6,6 @@
 
 ## Usage
 
-Provide instructions and examples for use. Include screenshots as needed.
-
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative file path, add it to your README using the following syntax:
-
-![alt text](assets/images/screenshot.png)
-
+![screenshot page 1](/assets/images/project2page1.PNG)
+![screenshot page 2](/assets/images/project2page2.PNG)
+![screenshot page 3](/assets/images/project2page3.PNG)
