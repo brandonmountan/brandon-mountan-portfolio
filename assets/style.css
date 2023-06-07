@@ -1,100 +1,91 @@
 * {
     box-sizing: border-box;
-    
+    background-color: rgb(109, 0, 0);
 }
 
 body {
-    margin: 0;
+    margin: 100px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
 
 header {
-    display: flex;
-    flex-wrap: wrap;
     text-align: center;
-    justify-content: center;
-    padding: 60px;
-    background: black;
-    color: white;
+    padding: 30px;
 }
 
 nav {
     display: flex;
-    background-color: black;
 }
 
 nav a {
-    color: red;
-    padding: 14px 20px;
+    padding: 16px 24px;
     text-decoration: none;
-    text-align: center;
+    color: black;
 }
 
 img {
     display: flex;
     flex-wrap: wrap;
-    width: 100px;
-    border-radius: 50px;
-    padding: 5px;
+    justify-content: center;
+    width: 100%;
+    padding: 75px;
 }
 
-p {
+.headshot {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 50%;
 }
 
 .flexbox-container {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
-.flexbox-item-1 {
-    display: flex;
-    height: 200px;
-    margin: 10px;
-    width: 100%;
-    border: 1px solid black;
-}
-
-.flexbox-item-2 {
-    display: flex;
-    height: 25%;
-    margin: 10px;
-    width: 48%;
-    border: 1px solid black;
-}
-
-.flexbox-container-2 {
-    display: flex;
-    flex-direction: row;
-    border: 1px solid black;
-    margin: 10px;
-}
-
-.flexbox-item-3 {
+.sticker-big {
     display: flex;
     flex-wrap: wrap;
-    padding: 10px;
     justify-content: center;
+    border: solid 1px black;
+    flex: 0 0 100%;
+    box-shadow: 10px 10px 5px black;
+    margin: 20px;
+}
+
+.sticker-small {
+    border: solid 1px black;
+    padding: 10px;
+    flex: 0 0 45%;
+    box-shadow: 10px 10px 5px black;
+    margin: 20px;
 }
 
 h1 {
+    font-size: 50px;
     width: 100%;
-    color: red;
     text-align: center;
 }
 
 h2 {
+    font-size: 25px;
     display: flex;
-    text-align: center;
-    align-items: center;
     justify-content: center;
-    padding: 3px;
+    padding: 10px;
+    margin: 20px 0px 0px;
+}
+
+h3  {
+    font-size: 25px;
+    text-align: center;
 }
 
 p {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
+    font-size: 20px;
+    text-align: center;
+    padding: 50px;
 }
 
 @media screen and (max-width: 992px) {
