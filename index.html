@@ -16,7 +16,7 @@
         <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
           <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
             <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
-            <span class="fs-4">Brandon Mountan's Portfolio</span>
+            <span class="fs-4 myheader">BRANDON MOUNTAN'S PORTFOLIO</span>
           </a>
     
           <ul class="nav nav-pills">
@@ -29,65 +29,85 @@
 
 <main>
     <header>
-    <h1 id="MyProjects">Projects</h1>
+    <h1 id="MyProjects">PROJECTS</h1>
+    <br>
     </header>
 
-    <a href="https://starlit-mermaid-2652a3.netlify.app/" target="_blank">
-      <div class="card bg-dark text-white m-5">
-        <img class="card-img" src="./assets/images/mars.jpg" alt="Card image">
-        <div class="card-img-overlay">
-          <h5 class="card-title">Mars Madness</h5>
-          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-          <p class="card-text">Last updated 3 mins ago</p>
-        </div>
-      </div>
+    <div class="card mb-3">
+      <a href="https://dashboard.heroku.com/apps/blooming-mesa-22889/settings">
+      <img src="./assets/images/project3img1.PNG" class="card-img-top" alt="Preview of webpage">
     </a>
+      <div class="card-body">
+        <h5 class="card-title">PostGame</h5>
+        <p class="card-text">Third and final group project in bootcamp. Social media and blog website built with React.</p>
+        <p class="card-text"><small class="text-body-secondary"></small></p>
+      </div>
+    </div>
+    <div class="card">
 
-    <div class="card-group m-5">
-        <div class="card">
-          <img class="card-img-top" src="..." alt="Card image cap">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-          </div>
-          <div class="card-footer">
-            <small class="text-muted">Last updated 3 mins ago</small>
-          </div>
-        </div>
-        <div class="card">
-          <img class="card-img-top" src="..." alt="Card image cap">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-          </div>
-          <div class="card-footer">
-            <small class="text-muted">Last updated 3 mins ago</small>
+      <div class="row row-cols-1 row-cols-md-2 g-4">
+        <div class="col">
+          <div class="card">
+            <a href="https://salty-temple-87367-87002835adcc.herokuapp.com/">
+            <img src="./assets/images/homepage.png" class="card-img-top" alt="Homepage of full-stack group project">
+            </a>
+            <div class="card-body">
+              <h5 class="card-title">Rentopia</h5>
+              <p class="card-text">Second group project. Full-stack e-commerce website.</p>
+            </div>
           </div>
         </div>
-        <div class="card">
-          <img class="card-img-top" src="..." alt="Card image cap">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-          </div>
-          <div class="card-footer">
-            <small class="text-muted">Last updated 3 mins ago</small>
+        <div class="col">
+          <div class="card">
+            <a href="https://starlit-mermaid-2652a3.netlify.app/">
+            <img src="./assets/images/marsappimg.jpg" class="card-img-top" alt="Homepage of front-end group project">
+            </a>
+            <div class="card-body">
+              <h5 class="card-title">Mars Madness</h5>
+              <p class="card-text">First group project. Front-end web application that pulled data from two different API's.</p>
+            </div>
           </div>
         </div>
       </div>
 
+      <br>
       <h2 id="AboutMe">About Me</h2>
+      <br>
 
-      <div class="card m-5" style="width: 18rem;">
-        <img class="card-img-top" src="./assets/images/profile (3).JPG" alt="Card image cap">
-        <div class="card-body">
-          <p class="card-text">
-            Montana born and raised! I currently live in Holladay, Utah with my significant other and 2 dogs. My hobbies include watching sports, playing video games, 
-            and traveling. I have worked many jobs throughout my adult life but I am currently working at the University of Utah Hospital as a Paramedic. I am
-            transitioning out of healthcare and into web development. 
-          </p>
-        </div>
+  <div>
+    <div class="card">
+      <div class="card-body" style="text-align: center;">
+        Born and raised in Great Falls, Montana. I obtained a Bachelor's Degree in Cell Biology and Neuroscience from Montana State University-Bozeman. I moved to Salt Lake City, Utah in 2019 to pursue a career in healthcare. I am currently a Paramedic at the University of Utah Emergency Department but I am interested in pursuing a new career in tech, specifically web development. I currently live in Holladay, Utah with my wife Zaida, son Everett, and two dogs, Remy and Nala. 
       </div>
+    </div>
+    <br>
+      <div id="carouselExampleIndicators" class="carousel slide pictures">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./assets/images/IMG_4571.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./assets/images/IMG_4276.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./assets/images/IMG_1652.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
 
 </main>
 
